@@ -2,7 +2,9 @@ package javaInterviewTasks;
 
 public class BiggerNum {
     public static void main(String[] args) {
-
+        int n1 = 3, n2 = 16, n3 = 99;
+        String num = (n1>n2 && n1>n3)?"n1 is biggest output":(n2>n1 && n2>n3)?"n2 is biggest output": (n3>n1 && n3>n2)?"n3 is biggest output": "Not a valid output";
+        System.out.println(num);
     }
 }
 /*
